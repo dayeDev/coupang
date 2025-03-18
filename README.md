@@ -9,13 +9,12 @@ Automate webpages with Selenium and define features and test code with Pytest
 
 ## 📁 프로젝트 구조
 ```
-coupang/
+my_project/
 │── src/         
 │   ├── __init__.py          # 패키지 인식 파일
 │   └── main_page.py         # 실제 기능 구현 파일
-└── page/           
-│   ├── __init__.py
+└── tests/           
+│   ├── __init__.py          # 패키지 인식 파일 (생략)
 │   ├── conftest.py          # 공통 픽스처 정의 파일
-│   └──  test_main_page.py   # main_page.py에 대한 테스트 코드 파일
-└──  report.html             # 결과 리포트 파일
+└── └── test_main_page.py    # main_page.py에 대한 테스트 코드 파일
 ```
